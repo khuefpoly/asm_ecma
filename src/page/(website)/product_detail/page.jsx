@@ -401,7 +401,7 @@ const ProductDetail = () => {
             </div>
           </div>
           <div className="flex justify-center mt-11">
-            <button className="border-[#B88E2F] border py-3 px-78px text-[#B88E2F] text-base font-semibold ">
+            <button className="border-[#B88E2F] border py-3 px-78px text-[#B88E2F] text-base font-semibold hover:text-white hover:bg-[#B88E2F] hover: opacity-80 ">
               Show More
             </button>
           </div>
