@@ -6,7 +6,7 @@ const Support = () => {
       <div className="max-w-[1280px] h-auto flex justify-between items-center mx-auto pt-16 pb-60px">
         <div className="flex items-center">
           <div>
-            <img src="Group.svg" alt="High Quality Icon" />
+            <img src="./img/Group.svg" alt="High Quality Icon" />
           </div>
           <div className="ml-4">
             <h3 className="mb-1 text-xl font-semibold text-[#171717]">
@@ -19,7 +19,7 @@ const Support = () => {
         </div>
         <div className="flex items-center">
           <div>
-            <img src="Group.svg" alt="24 / 7 Support Icon" />
+            <img src="./img/Group2.png" alt="24 / 7 Support Icon" />
           </div>
           <div className="ml-4">
             <h3 className="mb-1 text-xl font-semibold text-[#171717]">
@@ -30,7 +30,7 @@ const Support = () => {
         </div>
         <div className="flex items-center">
           <div>
-            <img src="Group.svg" alt="Warranty Protection Icon" />
+            <img src="./img/shipping.svg" alt="Warranty Protection Icon" />
           </div>
           <div className="ml-4">
             <h3 className="mb-1 text-xl font-semibold text-[#171717]">
@@ -41,7 +41,7 @@ const Support = () => {
         </div>
         <div className="flex items-center">
           <div>
-            <img src="Group.svg" alt="Free Shipping Icon" />
+            <img src="./img/customer-support.svg" alt="Free Shipping Icon" />
           </div>
           <div className="ml-4">
             <h3 className="mb-1 text-xl font-semibold text-[#171717]">

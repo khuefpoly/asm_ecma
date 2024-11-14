@@ -15,6 +15,7 @@ export default {
         "22px": "22px",
         "60px": "60px",
         "73px": "73px",
+        "78px": "78px",
         "99px": "99px",
         "131.5px": "131.5px",
       },
@@ -25,6 +26,7 @@ export default {
       margin: {
         "5px": "5px",
         "18px": "18px",
+        "26px": "26px",
         "33px": "33px",
         "60px": "60px",
       },
