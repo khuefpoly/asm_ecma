@@ -47,7 +47,7 @@ const Header = () => {
             <div className="flex justify-end space-x-11 text-2xl relative">
               <div className="relative group">
                 <Link to="#" className="text-gray-600 hover:text-yellow-600">
-                  <i className="fas fa-user" />
+                <img src="./img/account.svg" alt="" />
                 </Link>
                 <div className="w-[150px] absolute hidden group-hover:block bg-white shadow-lg p-2 rounded-md text-left text-lg right-0">
                   <Link
@@ -68,16 +68,16 @@ const Header = () => {
                 to="/search"
                 className="text-gray-600 hover:text-yellow-600"
               >
-                <i className="fas fa-search" />
+                <img src="./img/search.svg" alt="" />
               </Link>
               <Link
                 to="/favorites"
                 className="text-gray-600 hover:text-yellow-600"
               >
-                <i className="fas fa-heart" />
+                <img src="./img/heart.svg" alt="" />
               </Link>
               <Link to="/cart" className="text-gray-600 hover:text-yellow-600">
-                <i className="fas fa-shopping-cart" />
+              <img src="./img/shopping.svg" alt="" />
               </Link>
             </div>
           </div>

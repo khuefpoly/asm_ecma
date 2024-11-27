@@ -22,9 +22,11 @@ const NewsHome = () => {
               -30%
             </p>
             <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50">
-              <button className="bg-white text-yellow-600 font-semibold py-3 px-11 mb-2">
-                Add to cart
-              </button>
+              <Link to={`shop/cart`}>
+                <button className="bg-white text-yellow-600 font-semibold py-3 px-11 mb-2">
+                  Add to cart
+                </button>
+              </Link>
               <div className="flex space-x-4 text-white">
                 <button className="flex items-center space-x-1">
                   <i className="fa-solid fa-share-nodes" />
@@ -70,9 +72,11 @@ const NewsHome = () => {
             />
             {/* sale */}
             <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50">
-              <button className="bg-white text-yellow-600 font-semibold py-3 px-11 mb-2">
-                Add to cart
-              </button>
+              <Link to={`shop/cart`}>
+                <button className="bg-white text-yellow-600 font-semibold py-3 px-11 mb-2">
+                  Add to cart
+                </button>
+              </Link>
               <div className="flex space-x-4 text-white">
                 <button className="flex items-center space-x-1">
                   <i className="fa-solid fa-share-nodes" />
@@ -119,9 +123,11 @@ const NewsHome = () => {
               -50%
             </p>
             <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50">
-              <button className="bg-white text-yellow-600 font-semibold py-3 px-11 mb-2">
-                Add to cart
-              </button>
+              <Link to={`shop/cart`}>
+                <button className="bg-white text-yellow-600 font-semibold py-3 px-11 mb-2">
+                  Add to cart
+                </button>
+              </Link>
               <div className="flex space-x-4 text-white">
                 <button className="flex items-center space-x-1">
                   <i className="fa-solid fa-share-nodes" />
@@ -170,9 +176,11 @@ const NewsHome = () => {
               New
             </p>
             <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50">
-              <button className="bg-white text-yellow-600 font-semibold py-3 px-11 mb-2">
-                Add to cart
-              </button>
+              <Link to={`shop/cart`}>
+                <button className="bg-white text-yellow-600 font-semibold py-3 px-11 mb-2">
+                  Add to cart
+                </button>
+              </Link>
               <div className="flex space-x-4 text-white">
                 <button className="flex items-center space-x-1">
                   <i className="fa-solid fa-share-nodes" />

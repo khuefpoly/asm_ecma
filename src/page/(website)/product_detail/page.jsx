@@ -140,27 +140,29 @@ const ProductDetail = () => {
               </button>
             </div>
             {/* thông tin */}
-            <div className="mt-8 border-t border-[#D9D9D9] text-[#a3a3a3] text-base pt-10">
-              <div className="grid grid-cols-2 gap-2 mt-3 text-base font-medium">
-                <span className="flex justify-between pr-4">SKU</span>
-                <span>: SS001</span>
-              </div>
-              <div className="grid grid-cols-2 gap-2 mt-3 text-base font-medium">
-                <span className="flex justify-between pr-4">Category</span>
-                <span>: Sofa</span>
-              </div>
-              <div className="grid grid-cols-2 gap-2 mt-3 text-base font-medium">
-                <span className="flex justify-between pr-4">Tags</span>
-                <span>: Sofa, Chair, Home, Shop</span>
-              </div>
-              <div className="grid grid-cols-2 gap-2 mt-3 text-base font-medium">
-                <span className="flex justify-between pr-4">Share</span>
-                <div className="flex items-center space-x-3">
-                  <span>: </span>
-                  <div className="text-[#000] text-xl flex space-x-6">
-                    <FaFacebook />
-                    <FaLinkedin />
-                    <FaTwitterSquare />
+            <div className="mt-8 border-t border-gray-300 text-gray-500 text-base pt-10">
+              <div className="">
+                <div className="space-y-4">
+                  <div className="flex items-center text-base font-medium gap-x-2">
+                    <span className="w-1/4">SKU</span>
+                    <span>: SS001</span>
+                  </div>
+                  <div className="flex items-center text-base font-medium gap-x-2">
+                    <span className="w-1/4">Category</span>
+                    <span>: Sofa</span>
+                  </div>
+                  <div className="flex items-center text-base font-medium gap-x-2">
+                    <span className="w-1/4">Tags</span>
+                    <span>: Sofa, Chair, Home, Shop</span>
+                  </div>
+                  <div className="flex items-center text-base font-medium gap-x-2">
+                    <span className="w-1/4">Share</span>
+                    <div className="flex items-center space-x-3 text-xl text-black">
+                      <span>:</span>
+                      <FaFacebook className="hover:text-blue-600 transition-colors" />
+                      <FaLinkedin className="hover:text-blue-500 transition-colors" />
+                      <FaTwitterSquare className="hover:text-blue-400 transition-colors" />
+                    </div>
                   </div>
                 </div>
               </div>
