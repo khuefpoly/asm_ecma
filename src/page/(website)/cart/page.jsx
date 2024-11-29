@@ -21,7 +21,7 @@ const CartPage = () => {
             <tr>
               <td className="py-[55px] flex  items-center space-x-4">
                 <img
-                  src="../public/img/sofa3.png"
+                  src="/img/sofa3.png"
                   alt="Sofa"
                   className="w-[80px] h-[80px] rounded-md bg-[#F9F1E7]"
                 />
