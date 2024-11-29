@@ -7,7 +7,9 @@ import Blog from "./components/Blog";
 const HomePage = () => {
   return (
     <div>
-      <div className="banner"></div>
+      <div className="banner">
+        <img src="./img/banner.svg" alt="" />
+      </div>
       <main className="w-[1280px] mx-auto mt-11">
         <NewsHome />
         <ShopHome />
